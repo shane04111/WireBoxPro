@@ -1,12 +1,12 @@
 {
     "name": "WireBox",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "date": "2019-10-10",
     "title": "Wire Box Tool",
     "author": "MasterBuilder",
     "description": "Provides a tool you can drag over power poles to add green & red wires to existing copper-wire connections.",
-    "factorio_version": "0.17",
+    "factorio_version": "1.0",
     "dependencies": [
-        "base >= 0.17"
+        "base >= 1.0"
     ]
 }
