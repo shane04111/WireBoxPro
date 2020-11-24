@@ -10,7 +10,7 @@ local item = {
             icon_size = 32,
         }
     },
-    flags = { "only-in-cursor" },
+    flags = { "hidden", "only-in-cursor", "not-stackable", "spawnable" },
     stack_size = 1,
     stackable = false,
     selection_color = { r = 0.72, g = 0.45, b = 0.2, a = 1 },
@@ -24,8 +24,8 @@ local item = {
 local shortcut = {
     type = "shortcut",
     name = "shortcut-wire-box-tool-item",
-    action = "create-blueprint-item",
-    item_to_create = "wire-box-tool",
+    action = "spawn-item",
+    item_to_spawn = "wire-box-tool",
     order = "m[wire-box-tool]",
     icon = {
         filename = "__WireBox__/graphics/icons/power-grid-comb-x32.png",
