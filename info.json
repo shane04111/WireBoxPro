@@ -1,10 +1,10 @@
 {
-    "name": "WireBox",
-    "version": "1.2.0",
+    "name": "WireBoxPro",
+    "version": "1.0.0",
     "date": "2021-01-27",
-    "title": "Wire Box Tool",
-    "author": "MasterBuilder",
-    "description": "Provides a tool you can drag over power poles to add green & red wires to existing copper-wire connections.",
+    "title": "Wire Box Tool Pro",
+    "author": "Shane0411",
+    "description": "受到Wire Box Tool啟發，提供一种工具，您可以自己設定按住shift時需要哪些設備，以将绿色和红色电线添加到其中，並保留原版功能",
     "factorio_version": "1.1",
     "dependencies": [
         "base >= 1.1"
