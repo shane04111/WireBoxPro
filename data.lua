@@ -1,12 +1,12 @@
 local item = {
     type = "selection-tool",
-    name = "wire-box-tool",
+    name = "wire-box-pro-tool",
     subgroup = "tool",
     order = "z[wire-box-tool]",
     show_in_library = false,
     icons = {
         {
-            icon = "__WireBox__/graphics/icons/power-grid-comb.png",
+            icon = "__WireBoxPro__/graphics/icons/power-grid-comb.png",
             icon_size = 32,
         }
     },
@@ -23,33 +23,33 @@ local item = {
 
 local shortcut = {
     type = "shortcut",
-    name = "shortcut-wire-box-tool-item",
+    name = "shortcut-wire-box-pro-tool-item",
     action = "spawn-item",
-    item_to_spawn = "wire-box-tool",
-    order = "m[wire-box-tool]",
+    item_to_spawn = "wire-box-pro-tool",
+    order = "m[wire-box-pro-tool]",
     icon = {
-        filename = "__WireBox__/graphics/icons/power-grid-comb-x32.png",
+        filename = "__WireBoxPro__/graphics/icons/power-grid-comb-x32.png",
         flags = { "icon" },
         priority = "extra-high-no-scale",
         scale = 1,
         size = 32
     },
     disabled_icon = {
-        filename = "__WireBox__/graphics/icons/power-grid-comb-x32-white.png",
+        filename = "__WireBoxPro__/graphics/icons/power-grid-comb-x32-white.png",
         flags = { "icon" },
         priority = "extra-high-no-scale",
         scale = 1,
         size = 32
     },
     small_icon = {
-        filename = "__WireBox__/graphics/icons/power-grid-comb-x24.png",
+        filename = "__WireBoxPro__/graphics/icons/power-grid-comb-x24.png",
         flags = { "icon" },
         priority = "extra-high-no-scale",
         scale = 1,
         size = 24
     },
     disabled_small_icon = {
-        filename = "__WireBox__/graphics/icons/power-grid-comb-x24-white.png",
+        filename = "__WireBoxPro__/graphics/icons/power-grid-comb-x24-white.png",
         flags = { "icon" },
         priority = "extra-high-no-scale",
         scale = 1,

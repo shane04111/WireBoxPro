@@ -32,7 +32,6 @@ local function filter_entities(entities, playerNeed)
     for _, entity in ipairs(entities) do
         if isEntityTypeInPlayerNeed(entity.type, playerNeed) then
             table.insert(filtered, entity)
-            log(tostring(entity.electric_network_id))
     end
     end
     return filtered
@@ -83,7 +82,7 @@ local function zigzag_sort(entities, playerNeed)
 end
 
 local function on_player_selected_area(event)
-    if event.item ~= "wire-box-tool" then
+    if event.item ~= "wire-box-pro-tool" then
         return
     end
     local playerSettings = settings.get_player_settings(event.player_index)
@@ -111,7 +110,7 @@ local function on_player_selected_area(event)
 end
 
 local function on_player_alt_selected_area(event)
-    if event.item ~= "wire-box-tool" then
+    if event.item ~= "wire-box-pro-tool" then
         return
     end
     local playerSettings = settings.get_player_settings(event.player_index)
@@ -149,7 +148,7 @@ local function on_player_alt_selected_area(event)
 end
 
 local function on_player_reverse_selected_area(event)
-    if event.item ~= "wire-box-tool" then
+    if event.item ~= "wire-box-pro-tool" then
         return
     end
     local playerSettings = settings.get_player_settings(event.player_index)
@@ -175,7 +174,7 @@ local function on_player_reverse_selected_area(event)
 end
 
 local function on_player_alt_reverse_selected_area(event)
-    if event.item ~= "wire-box-tool" then
+    if event.item ~= "wire-box-pro-tool" then
         return
     end
     local playerSettings = settings.get_player_settings(event.player_index)
